@@ -1,0 +1,75 @@
+body {
+	font-size:62.5%; /* Set the size of 1em to 10px in all browsers */
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: Navy;
+}
+body.extraWide {font-size:80%;}
+body.wide {font-size:70%;}
+body.narrow {font-size:55%;}
+body.extraNarrow {font-size:45%;}
+
+header, footer {
+	width: 100%;
+	background-color: DeepSkyBlue;
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: 800;
+	font-size: 4em;
+	font-family: serif;
+}
+
+label {
+	font-size: 2em;
+	background-color: Gold;
+	padding: 5px 10px;
+	text-align: center;
+	min-width: 15%;
+	display: block;
+	position: absolute;
+	// border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	text-transform: uppercase;
+}
+
+#label1 {
+	top: 10%;
+	right: 20%;
+}
+
+#label2 {
+	top: 75%;
+	right: 40%;
+}
+
+section {
+	/* This line gives the section a hight relative to the page width:; */
+	padding-bottom: 100%;
+	position: relative;
+}
+
+#sec1 {
+	border: 2px solid yellow;
+	background-image: linear-gradient(rgba(0, 0, 255, 0.5),
+		rgba(255, 255, 0, 0.5)), url(pics/stars1.png);
+}
+
+img {
+	position: absolute;
+	box-shadow: 0 0 20px white;
+	border-radius: 5px;
+}
+
+#pic1 {
+	top: 30%;
+	left: 10%;
+	width: 50%;
+	transform: rotate(3deg);
+}
+
+footer {
+	font-size: 2em;
+}
