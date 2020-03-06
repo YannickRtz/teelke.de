@@ -35,6 +35,30 @@ label {
 	text-transform: uppercase;
 }
 
+#pic2 {
+	top: 20%;
+	left: 40%;
+	width: 50%;
+	transform: rotate(-3deg);
+}
+
+#label4 {
+	top: 70%;
+	right: 20%;
+	transform: rotate(4deg);
+}
+
+#label3 {
+	top: 60%;
+	right: 30%;
+}
+
+#sec2 {
+	border: 2px solid yellow;
+	background-image: linear-gradient(rgba(0, 0, 255, 0.5),
+		rgba(255, 255, 0, 0.5)), url(pics/stars1.png);
+}
+
 #label1 {
 	top: 10%;
 	right: 20%;
